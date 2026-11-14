@@ -1,51 +1,53 @@
 # AgriBazar AI 🌾
-> **An AI-Driven Agricultural Marketplace & Price Predictor**
-> Semester Project for Course: CSE 4104 (Software Development III)
-> Department of Computer Science and Engineering - NUBTK
+Development of an Intelligent Agricultural Marketplace and Price Forecasting System  
+Course: CSE 4104 (Software Development III)  
+Department of Computer Science and Engineering | NUBTK  
 
 ---
 
-## 👥 Team Information
-* **Official Team Name:** CSE4104-7D-T05
-* **Section:** 7D
+## 👥 Project Contributors & Roles
+* **Official Team Designation:** CSE4104-7D-T05  
+* **Academic Section:** 7D  
 
-### Members:
-1. **Niloy Kumar Saha** (ID: 11240121643) - *Team Leader & AI/Backend Developer*
-2. **Papon Sen** (ID: 11230321364) - *Full-Stack Developer*
-3. **Samapti Dakua** (ID: 11230321350) - *Frontend Developer*
-4. **Tithi Chowdhury** (ID: 11230321336) - *UI/UX & QA Testing Engineer*
-
----
-
-## 📝 Project Description
-**AgriBazar AI** is a next-generation full-stack web application designed to connect root-level farmers directly with retail consumers and wholesale industries. By leveraging enterprise Java architecture and advanced AI APIs, the platform completely eliminates middle-men syndicates, secures financial returns for rural farmers, and introduces time-series pricing forecasts using the Gemini API to notify agricultural markets of future economic trends.
+### Roster:
+1. **Niloy Kumar Saha** (ID: 11240121643) – Project Lead, Core Backend Architecture & AI Logic
+2. **Papon Sen** (ID: 11230321364) – Full-Stack Development & Database Management
+3. **Samapti Dakua** (ID: 11230321350) – Frontend UI Design & Client-Side Logic
+4. **Tithi Chowdhury** (ID: 11230321336) – UI/UX Optimization & Quality Assurance Engineering
 
 ---
 
-## 🚀 Core Features
-* **Role-Based Authentication:** Distinct operational dashboards for Farmers, Buyers, and Platform Administrators using Spring Security.
-* **Crop Image Verification:** Crop listings require real-time photo uploads for transparent quality evaluation before purchase.
-* **AI Price Forecasting:** Real-time dynamic visual charts predicting upcoming weekly crop market prices using Gemini API.
-* **Smart Advisory Alerts:** Data-driven system notifying farmers whether to instantly sell or securely store active stock.
-* **Direct Negotiation Chat:** Integrated communications network for seamless direct trading between farmers and buyers.
+## 📝 About the Project
+AgriBazar AI is a web-based full-stack platform built to bridge the gap between root-level farmers and buyers, including retail consumers and wholesale merchants. The project aims to minimize the influence of traditional middle-men syndicates by providing a direct transactional ecosystem. 
+
+By leveraging enterprise Java architecture for secure data handling and processing market historical data through predictive models, the application empowers farmers with price forecasting insights. This allows them to monitor market trends, make informed decisions about their produce, and maximize their profit margins.
 
 ---
 
-## 🛠️ Technology Stack
-* **Frontend:** React.js, Tailwind CSS
-* **Backend:** Java, Spring Boot, Spring Security, Spring Data JPA
-* **Database:** PostgreSQL
-* **AI Integration:** Gemini API
-* **Hosting:** Vercel (Frontend), Render (Backend)
+## 🚀 Key Functional Modules
+* **Multi-User Access Control:** Separate registration pipelines and custom dashboards for Farmers, Buyers, and Platform Administrators secured via robust credentials verification.
+* **Crop Inventory with Media Validation:** A dedicated module for farmers to list harvests with comprehensive metadata, location metrics, and mandatory crop images for quality verification.
+* **Price Trend Analysis & Visualization:** Interactive, dynamic charts that map historical commodity rates and project market valuation parameters for upcoming weeks.
+* **Smart Decision Alerts:** Background data processing that fires automated notifications to guide farmers on optimal storage schedules or immediate liquidation windows.
+* **Direct Communication Channel:** An in-app messaging interface allowing instant negotiation, terms discussion, and transport coordination between farmers and commercial buyers.
 
 ---
 
-## 📅 Project Timeline & Milestones (14 Weeks)
-* **Week 01 - 02:** Requirement Analysis, System Scoping & Proposal Submission.
-* **Week 03 - 04:** PostgreSQL Database Design & Architecture Setup.
-* **Week 05 - 06:** Java Spring Boot Backend Development & JWT Authentication.
-* **Week 07 - 08:** React.js Frontend Design & Mobile-Responsive UI Layouts.
-* **Week 09 - 10:** Gemini API Integration for AI Price Forecasting Engine.
-* **Week 11 - 12:** In-App Chat Integration & Full System Testing.
-* **Week 13:** Cloud Deployment (Vercel for Frontend, Render for Backend).
-* **Week 14:** Bug Fixing, Final Code Polishing & Presentation Prep.
+## 🛠️ Project Technical Stack
+* **Frontend Architecture:** React.js, Tailwind CSS (Engineered for complete mobile responsiveness)
+* **Backend Infrastructure:** Java, Spring Boot, Spring Security, Spring Data JPA
+* **Database Management:** PostgreSQL Relational Database System
+* **Predictive Framework:** Gemini API Integration
+* **Cloud Environments:** Vercel (Client-Side Deployment), Render (Server-Side & Database Node Hosting)
+
+---
+
+## 📅 Development Timeline & Roadmap
+* **Weeks 01 - 02:** System Requirements Gathering, Scoping & Initial Proposal Finalization
+* **Weeks 03 - 04:** Relational Database Engineering, Schema Setup & ERD Design
+* **Weeks 05 - 06:** Core REST API Development & Session Security Configurations
+* **Weeks 07 - 08:** Frontend UI Component Assembly & Layout Optimization
+* **Weeks 09 - 10:** Integration of Predictive Pricing Engine & Market Ingestion Setup
+* **Weeks 11 - 12:** Core Component Integration, End-to-End API Connections & System Testing
+* **Week 13:** Cloud Environment Configurations & Live Production Deployment
+* **Week 14:** Comprehensive Quality Assurance, Code Refinement & Final Evaluation Prep
