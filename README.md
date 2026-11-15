@@ -1,5 +1,5 @@
 # AgriBazar AI 🌾
-Development of an Intelligent Agricultural Marketplace and Price Forecasting System  
+Development of an Intelligent Agricultural Marketplace and Price predictor System  
 Course: CSE 4104 (Software Development III)  
 Department of Computer Science and Engineering | NUBTK  
 
