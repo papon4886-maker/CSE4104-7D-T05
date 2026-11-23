@@ -1,5 +1,5 @@
 # AgriBazar AI 🌾
-Development of an Intelligent Agricultural Marketplace and Price predictor System  
+Development of an Intelligent Agricultural Marketplace and Price Forecasting System  
 Course: CSE 4104 (Software Development III)  
 Department of Computer Science and Engineering | NUBTK  
 
@@ -10,50 +10,37 @@ Department of Computer Science and Engineering | NUBTK
 * **Academic Section:** 7D  
 
 ### Roster:
-1. **Niloy Kumar Saha** (ID: 11240121643)-7D
-2. **Papon Sen** (ID: 11230321364) – 7D
-3. **Samapti Dakua** (ID: 11230321350) – 7D
-4. **Tithi Chowdhury** (ID: 11230321336)-7D
+1. **Niloy Kumar Saha** (ID: 11240121643) – Project Lead, Core Backend Architecture & AI Logic [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
+2. **Papon Sen** (ID: 11230321364) – Full-Stack Development & Database Management [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
+3. **Samapti Dakua** (ID: 11230321350) – Frontend UI Design & Client-Side Logic [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
+4. **Tithi Chowdhury** (ID: 11230321336) – UI/UX Optimization & Quality Assurance Engineering [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
 
 ---
 
-## 🎯 Project Objectives
-* **Enterprise Java Infrastructure:** Build a reliable and scalable distributed B2C/B2B agricultural marketplace using Java and the Spring Boot framework.
-* **Intermediary Elimination:** Provide a direct and transparent structural bridge connecting rural smallholder farmers with industrial wholesale/retail buyers.
-* **Predictive Price Ingestion:** Implement the Gemini API to analyze legacy regional crop data vectors and project commodity trends for the upcoming weeks.
-* **Data-Backed Advisory System:** Trigger real-time, automated platform alerts to guide marginalized farmers regarding harvest liquidation windows or cold-storage timelines.
+## 🎯 System Design Architecture & Blueprints
+The production blueprint for AgriBazar AI translates enterprise agricultural business logic into a type-safe distributed infrastructure. The core synchronization engine enforces the following technical pipelines:
+* **System Flow Execution:** `Client Presentation Layer (React.js)` ➔ `Application Service Layer (Spring Boot API Gateway)` ➔ `Persistent Data Store (MySQL via phpMyAdmin)`.
+* **Asynchronous AI Hook:** The Java server intercepts analytical history queries and handles secure payloads with the `Google Gemini API Layer` to stream continuous time-series crop forecasting matrices directly to client dashboards.
 
 ---
 
-## 🚀 Key Features & Modules
-* **Role-Based Authentication:** Secured data gateways managed via Spring Security and JWT with distinct operational dashboards for Farmers, Buyers, and Admins.
-* **Media Inventory Ingestion:** A streamlined pipeline for farmers to upload listing metadata coupled with mandatory crop photo verification assets to prove freshness.
-* **Interactive Forecasting Graphs:** Frontend analytical UI rendering time-series line graphs mapping past pricing alongside AI-projected cost variations for the upcoming 7-30 days.
-* **Direct Negotiation Network:** An asynchronous in-app chat component enabling seamless custom batch order discussions, price bargaining, and transport logistics coordination between users.
+## 🚀 Active Feature Modules (Week 04 Update)
+* **Secure Auth Controller (`/api/auth`):** Enforces cryptographic hashing of credentials and state token validation over secure HTTPS.
+* **Crop Inventory Manager (`/api/crops`):** Ingests harvest metadata alongside mandatory real-time smartphone photo attachments to ensure absolute product freshness.
+* **Gemini Predictive Engine (`/api/ai`):** Parses localized historical commodity cost datasets to output predictive distrib-matrices for the upcoming 7-30 days.
+* **Direct Settlement Network (`/api/orders`):** Orchestrates bulk cart management, automated status transition toggles (`SOLD_OUT`), and transactional messaging nodes.
 
 ---
 
-## 🛠️ Project Technology Stack
-* **Frontend Architecture:** React.js, Tailwind CSS (Fully optimized for responsive mobile web views)
-* **Backend Infrastructure:** Java, Spring Boot, Spring Security, Spring Data JPA
-* **Database Management:** MySQL / phpMyAdmin Relational Database Setup
-* **AI Engine & API:** Google Gemini API Integration
-* **Hosting Environments:** Vercel CDN (Client-Side), Render Container (Server-Side & Database Hosting)
-
----
-
-## 📂 Repository Layout & Structure
+## 📂 Production Repository Layout
 ```text
-├── /srs                  # Contains official SRS documentation and architecture diagram files
-│   ├── CSE4104-7D-T05_SRS.pdf
-│   ├── CSE4104-7D-T05_UseCaseDiagram.png
-│   ├── CSE4104-7D-T05_ERDiagram.png
-│   └── CSE4104-7D-T05_ArchitectureDiagram.png
-├── /backend              # Java Spring Boot enterprise backend application source code
-│   ├── src/
-│   └── pom.xml           # Dependencies build configuration script
-├── /frontend             # React.js user interface compilation components
+├── /frontend             # React.js client interface compilation files
 │   ├── src/
 │   └── package.json
-└── README.md             # Primary project documentation metadata sheet (This File)
+├── /backend              # Java Spring Boot enterprise application code layers
+│   ├── src/
+│   └── pom.xml           # Dependencies build automation script
+├── /database             # Contains structural MySQL relational schema dump files
+├── /diagrams             # Individual system blueprints (.png)
+└── /documentation        # Unified System Design official document PDF
 ```
