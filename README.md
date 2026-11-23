@@ -10,10 +10,10 @@ Department of Computer Science and Engineering | NUBTK
 * **Academic Section:** 7D  
 
 ### Roster:
-1. **Niloy Kumar Saha** (ID: 11240121643) – Project Lead, Core Backend Architecture & AI Logic [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
-2. **Papon Sen** (ID: 11230321364) – Full-Stack Development & Database Management [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
-3. **Samapti Dakua** (ID: 11230321350) – Frontend UI Design & Client-Side Logic [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
-4. **Tithi Chowdhury** (ID: 11230321336) – UI/UX Optimization & Quality Assurance Engineering [source: 0.1.6, 0.1.9, 0.1.12, 0.1.15, 0.1.21]
+1. **Niloy Kumar Saha** (ID: 11240121643)
+2. **Papon Sen** (ID: 11230321364) 
+3. **Samapti Dakua** (ID: 11230321350)
+4. **Tithi Chowdhury** (ID: 11230321336) 
 
 ---
 
